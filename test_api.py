@@ -6,7 +6,7 @@ import requests
 
 class TestMain:
     def test_api(self):
-        url = "http://127.0.0.1:5001/api/test"
+        url = "http://127.0.0.1:5000/api/test"
 
         print("请求地址：", url)
         response = requests.request(method="get", url=url)
