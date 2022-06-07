@@ -16,4 +16,4 @@ class TestMain:
 
 
 if __name__ == '__main__':
-    pytest.main(["--html=report/report.html", "--self-contained-html"])
+    pytest.main(["--html=/Users/jijianfeng/Downloads/jenkins/jenkins_hone/workspace/test456/report/report.html", "--self-contained-html"])
