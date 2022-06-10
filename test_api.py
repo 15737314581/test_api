@@ -6,7 +6,10 @@ import requests
 
 class TestMain:
     def test_api(self):
-        url = "http://172.23.7.136:5000/api/test"
+        # 公司
+        # url = "http://172.23.7.136:5000/api/test"
+        # 家
+        url = "http://192.168.3.36:5000/api/test"
 
         print("请求地址：", url)
         response = requests.request(method="get", url=url)
